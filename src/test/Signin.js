@@ -15,7 +15,7 @@ export default function Login() {
     setLoading(true)
     try {
       setError("")
-      axios.get(`${emailRef.current.value}`)
+      axios.get(`${url}/${emailRef.current.value}`)
       .then(res => {
         if(res.data === null){
           setRedirectForm(true)
