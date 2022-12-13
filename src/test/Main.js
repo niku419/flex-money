@@ -22,7 +22,7 @@ export default function Main() {
       Name: name
     }
     try{
-      axios.post(`${url}/api/users`, data)
+      axios.post(`${url}`, data)
       .then(() => {
         setAlert(true)
       })
