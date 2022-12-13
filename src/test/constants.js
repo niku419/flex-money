@@ -1,1 +1,1 @@
-export const url = "https://localhost:5000"
+export const url = "https://kind-gray-duck-tie.cyclic.app"
